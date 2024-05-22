@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.sidebar {
+    width: 250px;
+    background: #03284e;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2, .sidebar h3, .sidebar h4 {
+    margin-top: 0;
+}
+
+.sidebar h2 {
+    font-size: 1.8em;
+}
+
+.sidebar h3, .sidebar h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.sidebar p, .sidebar ul {
+    margin: 10px 0;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: underline;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid #031c35;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+}
+
+.main-content h2 {
+    border-bottom: 2px solid #04203c;
+    padding-bottom: 5px;
+    color: rgb(15, 14, 14);
+    margin-top: 0;
+}
+
+.skills-category h4 {
+    font-size: 1.1em;
+    color: #f9f9f9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.project, .degree {
+    margin: 10px 0;
+}
+
+.project h3, .degree h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #06284b;
+}
+
+.project p, .degree p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
